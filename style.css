@@ -1,14 +1,14 @@
 /*
 Theme Name: CBFour
-Theme URI: http://wordpress.org/themes/cbfour
+Theme URI: https://github.com/seismicthemes/cbfour
 Author: vaultfour
-Author URI: http://vaultfour.com/
+Author URI: https://www.seismicthemes.com/
 Description: A beautiful blue theme; featuring a customizable background, header, and menu.
-Version: 0.3
+Version: 0.4
 License: GNU General Public License
 License URI: license.txt
 Tags: custom-menu, sticky-post, microformats, rtl-language-support, translation-ready, full-width-template, post-formats
-
+Text Domain: cbfour
 */
 
 /* =Structure
@@ -459,6 +459,8 @@ a:hover {
 	font-weight: normal;
 	line-height: 1.3em;
 	margin-bottom: 0;
+	-ms-word-wrap: break-word;
+	word-wrap: break-word;
 }
 .entry-title a:link,
 .entry-title a:visited {
@@ -471,6 +473,7 @@ a:hover {
 }
 .entry-meta {
 	color: #888;
+	clear: both;
 	font-size: 10px;
 }
 .entry-meta abbr,
@@ -638,7 +641,7 @@ img.alignright {
 	background: #f1f1f1;
 	border: 1px solid #ccc; 
 	line-height: 18px;
-	margin: 2px 5px 20px 5px;
+	margin: 5px 5px 20px 5px;
 	max-width: 500px !important;
 	padding: 4px;
 	text-align: center;

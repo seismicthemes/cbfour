@@ -21,6 +21,11 @@ function cbfour_setup() {
 		require_once( $locale_file );
 
 	/**
+	 * Let wordpress handle the title tag
+	 */
+	add_theme_support( 'title-tag' );
+
+	/**
 	 * Add default posts and comments RSS feed links to head
 	 */
 	add_theme_support( 'automatic-feed-links' );
